@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kpt/static/css/main.fcef6e32.css",
-    "main.js": "/kpt/static/js/main.8237a567.js",
+    "main.js": "/kpt/static/js/main.3fcaa895.js",
     "static/media/agency.png": "/kpt/static/media/agency.c25469a83ea27bdb99ef.png",
     "static/media/starbucks.png": "/kpt/static/media/starbucks.6951706e0f285f0a9a23.png",
     "static/media/doc.png": "/kpt/static/media/doc.474374c301e0c5f2ea14.png",
@@ -13,6 +13,7 @@
     "static/media/ormaes.jpg": "/kpt/static/media/ormaes.88178e6d906f5445539c.jpg",
     "static/media/gorails.jpg": "/kpt/static/media/gorails.dcfdfe81505870f10272.jpg",
     "static/media/academy.png": "/kpt/static/media/academy.bd5848780b5313e8b256.png",
+    "static/media/eni.jpg": "/kpt/static/media/eni.a1283128090d4f624b47.jpg",
     "static/media/gossip.png": "/kpt/static/media/gossip.8784e03e81d9e3e614c1.png",
     "static/media/b7.jpg": "/kpt/static/media/b7.96c5f9df7987aa6f67f0.jpg",
     "static/media/follownut.png": "/kpt/static/media/follownut.9d8ad429d22309328b3f.png",
@@ -22,10 +23,10 @@
     "static/media/THP.png": "/kpt/static/media/THP.8d2ae2c22f04ba484508.png",
     "index.html": "/kpt/index.html",
     "main.fcef6e32.css.map": "/kpt/static/css/main.fcef6e32.css.map",
-    "main.8237a567.js.map": "/kpt/static/js/main.8237a567.js.map"
+    "main.3fcaa895.js.map": "/kpt/static/js/main.3fcaa895.js.map"
   },
   "entrypoints": [
     "static/css/main.fcef6e32.css",
-    "static/js/main.8237a567.js"
+    "static/js/main.3fcaa895.js"
   ]
 }
