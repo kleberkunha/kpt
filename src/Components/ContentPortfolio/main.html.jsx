@@ -20,6 +20,7 @@ import Starbucks from '../ContentPortfolio/img/portfolio/Projects/starbucks.png'
 import doghero from '../ContentPortfolio/img/portfolio/Projects/doghero.png';
 import dm from '../ContentPortfolio/img/portfolio/dm.jpg';
 import ormaes from '../ContentPortfolio/img/portfolio/ormaes.jpg';
+import ENI from '../ContentPortfolio/img/portfolio/eni.jpg';
 
 
 
@@ -38,6 +39,17 @@ function Main () {
                         <div className="divider-custom-line"></div>
                         <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
                         <div className="divider-custom-line"></div>
+                    </div>
+                    <div className="row justify-content-center">
+                        <div className="col-md-6 col-lg-4 mb-5">
+                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#eniModal">
+                                <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                    <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img className="img-fluid" src={ENI} alt="..." />
+                            </div>
+                        </div>
+
                     </div>
                     <div className="row justify-content-center">
                         <div className="col-md-6 col-lg-4 mb-5">
@@ -278,7 +290,7 @@ function Main () {
 
                     </div>
                     <div className="text-center mt-4">
-                        <a className="btn btn-xl btn-outline-light" href="https://www.mediafire.com/file/7vtyzpcxmguzd5z/CV_Kleber_da_Cunha_2023.pdf/file" target="_blank" rel="noreferrer">
+                        <a className="btn btn-xl btn-outline-light" href="https://www.mediafire.com/file/1yflfg1g1gzk8dd/CV_Kleber_da_Cunha_Alternance.pdf/file" target="_blank" rel="noreferrer">
                             <i className="fas fa-download me-2"></i>
                             Download my CV!
                         </a>
@@ -318,8 +330,6 @@ function Main () {
                             <h4 className="text-uppercase mb-4">Location</h4>
                             <p className="lead mb-0">
                                 Schiltigheim / France
-                                <br />
-                                Available to change location!
                             </p>
                         </div>
                         <div className="col-lg-4 mb-5 mb-lg-0">
@@ -332,6 +342,36 @@ function Main () {
             </footer>
             <div className="copyright py-4 text-center text-white">
                 <div className="container"><small>Copyright &copy; Kleber da Cunha 2024</small></div>
+            </div>
+            <div className="portfolio-modal modal fade" id="eniModal" tabindex="-1" aria-labelledby="eniModal" aria-hidden="true">
+                <div className="modal-dialog modal-xl">
+                    <div className="modal-content">
+                        <div className="modal-header border-0"><button className="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                        <div className="modal-body text-center pb-5">
+                            <div className="container">
+                                <div className="row justify-content-center">
+                                    <div className="col-lg-8">
+                                        <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">ENI <br/><br/> Ecole informatique</h2>
+                                        <div className="divider-custom">
+                                            <div className="divider-custom-line"></div>
+                                            <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
+                                            <div className="divider-custom-line"></div>
+                                        </div>
+                                        <img className="img-fluid rounded mb-5" src={ENI} alt="..." />
+                                        <p className="mb-4">Formation Concepteur Développeur d’Applications with the techs : <br/>Java, JavaSE, JEE, JS, PHP, Symfony, CMS, SQL.</p>
+                                        <button className="btn btn-secondary" href="#!" data-bs-dismiss="modal">
+                                            <i className="fas fa-times fa-fw"></i>
+                                            Close Window
+                                        </button>
+                                        <a className="btn btn-primary link-to-website mx-2" href="https://www.eni-ecole.fr/formations/developpement/niveau-6-bac4-concepteur-developpeur-dapplications/" target="_blank" rel="noreferrer">
+                                            <i className="fas fa-times fa-fw link-to-website">ENI website</i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div className="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
                 <div className="modal-dialog modal-xl">
@@ -413,14 +453,14 @@ function Main () {
                                         </div>
                                         <img className="img-fluid rounded mb-5" src={dm} alt="..." />
                                         <p className="mb-4">
-                                         Direct Market experiences
+                                        Worked in the intern application marketplace of direct market, built new features. <br/> More informations soon..
                                         </p>
                                         <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
-                                        <a className="btn btn-primary link-to-website mx-2" href="https://www.cursoemvideo.com/" target="_blank" rel="noreferrer">
-                                            <i className="fas fa-times fa-fw link-to-website">Curso em video website</i>
+                                        <a className="btn btn-primary link-to-website mx-2" href="https://direct-market.fr/" target="_blank" rel="noreferrer">
+                                            <i className="fas fa-times fa-fw link-to-website">Direct Market website</i>
                                         </a>
                                     </div>
                                 </div>
@@ -445,14 +485,14 @@ function Main () {
                                         </div>
                                         <img className="img-fluid rounded mb-5" src={ormaes} alt="..." />
                                         <p className="mb-4">
-                                            Ormaes experiences
+                                            Worked in ormaes building the intern application and some features for the Strasbourg transport application.
                                         </p>
                                         <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
-                                        <a className="btn btn-primary link-to-website mx-2" href="https://b7web.com.br/fullstack/" target="_blank" rel="noreferrer">
-                                            <i className="fas fa-times fa-fw link-to-website">B7web website</i>
+                                        <a className="btn btn-primary link-to-website mx-2" href="https://www.ormaes.fr/" target="_blank" rel="noreferrer">
+                                            <i className="fas fa-times fa-fw link-to-website">Ormaes website</i>
                                         </a>
                                     </div>
                                 </div>
