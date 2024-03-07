@@ -33,3 +33,37 @@
         position: relative;
     }
 }
+
+
+
+.control-position-images-exp{
+    display: flex;
+    justify-content: space-around;
+}
+.control-image-exp{
+    width: 100%;
+    h5{
+        background-color: black;
+        color: white;
+    }
+}
+.dm-images{
+    position: absolute;
+    width: 80vw;
+    right: -25vw;
+}
+
+
+.image-etiquete{
+    position: absolute;
+    width: 62vw;
+    right: -17vw;
+}
+
+.images-modal{
+    width: 8vw;
+}
+
+.ormaes-images{
+    width: 20vw;
+}

@@ -22,6 +22,29 @@ import dm from '../ContentPortfolio/img/portfolio/dm.jpg';
 import ormaes from '../ContentPortfolio/img/portfolio/ormaes.jpg';
 import ENI from '../ContentPortfolio/img/portfolio/eni.jpg';
 
+import CreationProduct from '../ContentPortfolio/img/dm/creation_auto_produit.png';
+import DeleteProduct from '../ContentPortfolio/img/dm/retree_du_produit_du_catalog.png';
+import EticketTransparent from '../ContentPortfolio/img/dm/eticket_transparance.png';
+import ListProductCreated from '../ContentPortfolio/img/dm/list_produit_crée.png';
+import SearchBar from '../ContentPortfolio/img/dm/SearchBar.png';
+import QrcodePage from '../ContentPortfolio/img/dm/qrcode_page.png';
+import PerturbationsButton from '../ContentPortfolio/img/ormaes/perturbations-button.jpg';
+import LineDirections from '../ContentPortfolio/img/ormaes/line-directions.jpg';
+import PerturbationsPage from '../ContentPortfolio/img/ormaes/perturbations-page.jpg';
+import TouteLesLignes from '../ContentPortfolio/img/ormaes/cts-toute-les-lignes.jpg';
+import CtsParkingsCar from '../ContentPortfolio/img/ormaes/cts-parkings.jpg';
+import CtsParkingBike from '../ContentPortfolio/img/ormaes/cts-bikes.jpg';
+import CtsFlexHop from '../ContentPortfolio/img/ormaes/cts-flex-hop.jpg';
+
+import PerturbationInfo from '../ContentPortfolio/img/ormaes/perturbation-information.jpg';
+import LineInformations from '../ContentPortfolio/img/ormaes/Line-informations.jpg';
+
+import Research from '../ContentPortfolio/img/ormaes/research.jpg';
+
+import Location from '../ContentPortfolio/img/ormaes/location-cts.jpg';
+
+
+
 
 
 
@@ -32,6 +55,43 @@ import ENI from '../ContentPortfolio/img/portfolio/eni.jpg';
 function Main () {
     return(
         <>
+
+
+            <section className="page-section portfolio" id="experiences">
+                <div className="container">
+                    <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Experiences</h2>
+                    <div className="divider-custom">
+                        <div className="divider-custom-line"></div>
+                        <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
+                        <div className="divider-custom-line"></div>
+                    </div>
+                    
+                    <div className="row justify-content-center">
+                        <div className="col-md-6 col-lg-4 mb-5">
+                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#modalDm">
+                                <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                    <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img className="img-fluid" src={dm} alt="..." />
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-lg-4 mb-5">
+                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#modalOrmaes">
+                                <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                    <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img className="img-fluid" src={ormaes} alt="..." />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
             <section className="page-section portfolio" id="studies">
                 <div className="container">
                     <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Studies</h2>
@@ -72,7 +132,7 @@ function Main () {
                     </div>
                     <div className="row justify-content-center">
                         <div className="col-md-6 col-lg-4 mb-5">
-                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#modalCursoEmVideo">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                     <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -80,7 +140,7 @@ function Main () {
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4 mb-5">
-                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#modalB7">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                     <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -111,45 +171,7 @@ function Main () {
 
 
 
-            <section className="page-section portfolio" id="experiences">
-                <div className="container">
-                    <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Experiences</h2>
-                    <div className="divider-custom">
-                        <div className="divider-custom-line"></div>
-                        <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
-                        <div className="divider-custom-line"></div>
-                    </div>
-                    
-                    <div className="row justify-content-center">
-                        <div className="col-md-6 col-lg-4 mb-5">
-                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                                <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                    <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img className="img-fluid" src={dm} alt="..." />
-                            </div>
-                        </div>
-                        <div className="col-md-6 col-lg-4 mb-5">
-                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                                <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                    <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img className="img-fluid" src={ormaes} alt="..." />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-
-
-
-
-
-
-
-
+    
 
 
             <section className="page-section portfolio" id="projects">
@@ -437,7 +459,7 @@ function Main () {
                     </div>
                 </div>
             </div>
-            <div className="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div className="portfolio-modal modal fade" id="modalCursoEmVideo" tabindex="-1" aria-labelledby="modalCursoEmVideo" aria-hidden="true">
                 <div className="modal-dialog modal-xl">
                     <div className="modal-content">
                         <div className="modal-header border-0"><button className="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
@@ -445,13 +467,13 @@ function Main () {
                             <div className="container">
                                 <div className="row justify-content-center">
                                     <div className="col-lg-8">
-                                        <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Direct Market</h2>
+                                        <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Curso em video</h2>
                                         <div className="divider-custom">
                                             <div className="divider-custom-line"></div>
                                             <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
                                             <div className="divider-custom-line"></div>
                                         </div>
-                                        <img className="img-fluid rounded mb-5" src={dm} alt="..." />
+                                        <img className="img-fluid rounded mb-5" src={CursoEmVideo} alt="..." />
                                         <p className="mb-4">
                                         Worked in the intern application marketplace of direct market, built new features. <br/> More informations soon..
                                         </p>
@@ -459,7 +481,7 @@ function Main () {
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
-                                        <a className="btn btn-primary link-to-website mx-2" href="https://direct-market.fr/" target="_blank" rel="noreferrer">
+                                        <a className="btn btn-primary link-to-website mx-2" href="https://www.cursoemvideo.com/" target="_blank" rel="noreferrer">
                                             <i className="fas fa-times fa-fw link-to-website">Direct Market website</i>
                                         </a>
                                     </div>
@@ -469,7 +491,7 @@ function Main () {
                     </div>
                 </div>
             </div>
-            <div className="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div className="portfolio-modal modal fade" id="modalB7" tabindex="-1" aria-labelledby="modalB7" aria-hidden="true">
                 <div className="modal-dialog modal-xl">
                     <div className="modal-content">
                         <div className="modal-header border-0"><button className="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
@@ -477,23 +499,315 @@ function Main () {
                             <div className="container">
                                 <div className="row justify-content-center">
                                     <div className="col-lg-8">
-                                        <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Ormaes</h2>
+                                        <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">B7 Web</h2>
                                         <div className="divider-custom">
                                             <div className="divider-custom-line"></div>
                                             <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
                                             <div className="divider-custom-line"></div>
                                         </div>
-                                        <img className="img-fluid rounded mb-5" src={ormaes} alt="..." />
-                                        <p className="mb-4">
-                                            Worked in ormaes building the intern application and some features for the Strasbourg transport application.
-                                        </p>
+                                        <img className="img-fluid rounded mb-5" src={B7} alt="..." />
+                                       
                                         <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
-                                        <a className="btn btn-primary link-to-website mx-2" href="https://www.ormaes.fr/" target="_blank" rel="noreferrer">
-                                            <i className="fas fa-times fa-fw link-to-website">Ormaes website</i>
+                                        <a className="btn btn-primary link-to-website mx-2" href="https://github.com/suporteb7web" target="_blank" rel="noreferrer">
+                                            <i className="fas fa-times fa-fw link-to-website">B7 Github</i>
                                         </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="portfolio-modal modal fade" id="modalDm" tabindex="-1" aria-labelledby="modalDm" aria-hidden="true">
+                <div className="modal-dialog modal-xl">
+                    <div className="modal-content">
+                        <div className="modal-header border-0"><button className="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                        <div className="modal-body text-center pb-5">
+                            <div className="container">
+                                <div className="row justify-content-center">
+                                    <div className="">
+                                        <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Direct Market</h2>
+                                        <div className="divider-custom">
+                                            <div className="divider-custom-line"></div>
+                                            <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
+                                            <div className="divider-custom-line"></div>
+                                        </div>
+                                        <div className="col-12 d-flex align-items-center control-position-images-exp">
+                                            <div className="col-md-2 col-lg-4 m-2">
+                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#creationProduct">
+                                                    <h6>Créer des produits à partir d'une liste CSV</h6>
+                                                    <img className="img-fluid profile" src={CreationProduct} alt="..." />
+                                                </div>
+                                            </div>
+
+                                            <div className="col-md-2 col-lg-4 m-2">
+                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#listProductCreated">
+                                                    <h6>Liste des produits créés par date</h6>
+                                                    <img className="img-fluid profile" src={ListProductCreated} alt="..." />
+                                                </div>
+                                            </div>
+
+                                            <div className="col-md-2 col-lg-4 m-2">
+                                                <h6>Barre de recherche et pagination</h6>
+                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#SearchBarDM">
+                                                    <img className="img-fluid profile" src={SearchBar} alt="..." />
+                                                </div>
+                                            </div>
+                                          
+                                        </div>
+                                        <div className="col-12 d-flex align-items-center control-position-images-exp">
+                                            <div className="col-md-2 col-lg-4 m-2">
+                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#deleteProduct">
+                                                    <h6>Retrait du produit par code de référence</h6>
+                                                    <img className="img-fluid profile" src={DeleteProduct} alt="..." />
+                                                </div>
+                                            </div>
+                                           
+                                            <div className="col-md-2 col-lg-4 m-2">
+                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#QrcodePage">
+                                                    <h6>Création de la page redirigée par QR code</h6>
+                                                    <img className="img-fluid profile" src={QrcodePage} alt="..." />
+                                                </div>
+                                            </div>
+                                          
+                                            <div className="col-md-2 col-lg-4 m-2">
+                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#etiqueteTransparance">
+                                                    <h6>QR Code pour chaque produit</h6>
+                                                    <img className="img-fluid profile" src={EticketTransparent} alt="..." />
+                                                    <div>
+                                                        <h5>Exemple de lien d'un QR code <br/></h5>
+                                                        <a href="https://transparence.direct-market.fr/?product_id=39&producer_id=6&supermarket_id=642#traceability" target="_blank">Cliquez ici pour ouvrir le lien</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="portfolio-modal modal fade" id="creationProduct" tabindex="-1" aria-labelledby="creationProduct" aria-hidden="true">
+                                        <div className="modal-dialog">
+                                            <div className="control-image-exp">
+                                                <img className="dm-images rounded m-2" src={CreationProduct} alt="..." />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="portfolio-modal modal fade" id="deleteProduct" tabindex="-1" aria-labelledby="deleteProduct" aria-hidden="true">
+                                        <div className="modal-dialog">
+                                            <div className="control-image-exp">
+                                                <img className="dm-images rounded mb-5" src={DeleteProduct} alt="..." />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="portfolio-modal modal fade" id="etiqueteTransparance" tabindex="-1" aria-labelledby="etiqueteTransparance" aria-hidden="true">
+                                        <div className="modal-dialog">
+                                            <div className="control-image-exp">    
+                                                <img className="image-etiquete rounded mb-5" src={EticketTransparent} alt="..." />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="portfolio-modal modal fade" id="listProductCreated" tabindex="-1" aria-labelledby="listProductCreated" aria-hidden="true">
+                                        <div className="modal-dialog">
+                                            <div className="control-image-exp">
+                                                <img className="dm-images rounded mb-5" src={ListProductCreated} alt="..." />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="portfolio-modal modal fade" id="SearchBarDM" tabindex="-1" aria-labelledby="SearchBarDM" aria-hidden="true">
+                                        <div className="modal-dialog">
+                                            <div className="control-image-exp">
+                                                <img className="dm-images rounded mb-5" src={SearchBar} alt="..." />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="portfolio-modal modal fade" id="QrcodePage" tabindex="-1" aria-labelledby="QrcodePage" aria-hidden="true">
+                                        <div className="modal-dialog">
+                                            <div className="control-image-exp">
+                                                <img className="dm-images rounded mb-5" src={QrcodePage} alt="..." />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="portfolio-modal modal fade" id="modalOrmaes" tabindex="-1" aria-labelledby="modalOrmaes" aria-hidden="true">
+                <div className="modal-dialog dialog-ormaes modal-xl">
+                    <div className="modal-content">
+                        <div className="modal-header border-0"><button className="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                        <div className="modal-body text-center pb-5">
+                            <div className="container">
+                                <div className="row justify-content-center">
+                                    <div className="">
+                                        <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Ormaes Projects</h2>
+                                        <div className="divider-custom">
+                                            <div className="divider-custom-line"></div>
+                                            <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
+                                            <div className="divider-custom-line"></div>
+                                        </div>
+                                        <div className="col-12 d-flex align-items-center control-position-images-exp">
+                                            <div className="col-md-1 col-lg-2 m-1">
+                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#MainPageCts">
+                                                    <h6>Perturbation button</h6>
+                                                    <img className="img-fluid profile images-modal" src={PerturbationsButton} alt="..." />
+                                                </div>
+                                            </div>
+                                            <div className="col-md-1 col-lg-2 m-1">
+                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#PerturbationsPage">
+                                                    <h6>Perturbations page</h6>
+                                                    <img className="img-fluid profile images-modal" src={PerturbationsPage} alt="..." />
+                                                </div>
+                                            </div>
+                                            <div className="col-md-1 col-lg-2 m-1">
+                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#TouteLesLignes">
+                                                    <h6>Toutes les lignes</h6>
+                                                    <img className="img-fluid profile images-modal" src={TouteLesLignes} alt="..." />
+                                                </div>
+                                            </div>
+                                            <div className="col-md-1 col-lg-2 m-1">
+                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#LineDirections">
+                                                    <h6>Ligne information</h6>
+                                                    <img className="img-fluid profile images-modal" src={LineDirections} alt="..." />
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        
+
+                                        <div className="col-12 d-flex align-items-center control-position-images-exp">
+                                            <div className="col-md-1 col-lg-2 m-1">
+                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#PerturbationInfo">
+                                                    <h6>Perturbation info</h6>
+                                                    <img className="img-fluid profile images-modal" src={PerturbationInfo} alt="..." />
+                                                </div>
+                                            </div>
+                                            <div className="col-md-1 col-lg-2 m-1">
+                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#LineInformations">
+                                                    <h6>Ligne options</h6>
+                                                    <img className="img-fluid profile images-modal" src={LineInformations} alt="..." />
+                                                </div>
+                                            </div>
+                                            <div className="col-md-1 col-lg-2 m-1">
+                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#CtsParkingsCar">
+                                                    <h6>Parking Information</h6>
+                                                    <img className="img-fluid profile images-modal" src={CtsParkingsCar} alt="..." />
+                                                </div>
+                                            </div>
+                                            <div className="col-md-1 col-lg-2 m-1">
+                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#CtsParkingBike">
+                                                    <h6>Parking information</h6>
+                                                    <img className="img-fluid profile images-modal" src={CtsParkingBike} alt="..." />
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className="col-12 d-flex align-items-center control-position-images-exp">
+                                            <div className="col-md-1 col-lg-2 m-1">
+                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#Research">
+                                                    <h6>Research Page</h6>
+                                                    <img className="img-fluid profile images-modal" src={Research} alt="..." />
+                                                </div>
+                                            </div>
+                                            <div className="col-md-1 col-lg-2 m-1">
+                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#Location">
+                                                    <h6>Bike parking location</h6>
+                                                    <img className="img-fluid profile images-modal" src={Location} alt="..." />
+                                                </div>
+                                            </div>
+                                            <div className="col-md-1 col-lg-2 m-1">
+                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#CtsFlexHop">
+                                                    <h6>FlexHop</h6>
+                                                    <img className="img-fluid profile images-modal" src={CtsFlexHop} alt="..." />
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                    <div className="portfolio-modal modal fade" id="MainPageCts" tabindex="-1" aria-labelledby="MainPageCts" aria-hidden="true">
+                                        <div className="modal-dialog">
+                                            <div className="control-image-exp">
+                                                <img className="ormaes-images rounded mb-5" src={PerturbationsButton} alt="..." />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="portfolio-modal modal fade" id="PerturbationsPage" tabindex="-1" aria-labelledby="PerturbationsPage" aria-hidden="true">
+                                        <div className="modal-dialog">
+                                            <div className="control-image-exp">
+                                                <img className="ormaes-images rounded mb-5" src={PerturbationsPage} alt="..." />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="portfolio-modal modal fade" id="TouteLesLignes" tabindex="-1" aria-labelledby="TouteLesLignes" aria-hidden="true">
+                                        <div className="modal-dialog">
+                                            <div className="control-image-exp">
+                                                <img className="ormaes-images rounded mb-5" src={TouteLesLignes} alt="..." />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="portfolio-modal modal fade" id="LineDirections" tabindex="-1" aria-labelledby="PerturbationsPage" aria-hidden="true">
+                                        <div className="modal-dialog">
+                                            <div className="control-image-exp">
+                                                <img className="ormaes-images rounded mb-5" src={LineDirections} alt="..." />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="portfolio-modal modal fade" id="CtsParkingBike" tabindex="-1" aria-labelledby="CtsParkingBike" aria-hidden="true">
+                                        <div className="modal-dialog">
+                                            <div className="control-image-exp">
+                                                <img className="ormaes-images rounded mb-5" src={CtsParkingBike} alt="..." />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="portfolio-modal modal fade" id="LineInformations" tabindex="-1" aria-labelledby="LineInformations" aria-hidden="true">
+                                        <div className="modal-dialog">
+                                            <div className="control-image-exp">
+                                                <img className="ormaes-images rounded mb-5" src={LineInformations} alt="..." />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="portfolio-modal modal fade" id="PerturbationInfo" tabindex="-1" aria-labelledby="PerturbationInfo" aria-hidden="true">
+                                        <div className="modal-dialog">
+                                            <div className="control-image-exp">
+                                                <img className="ormaes-images rounded mb-5" src={PerturbationInfo} alt="..." />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="portfolio-modal modal fade" id="CtsParkingsCar" tabindex="-1" aria-labelledby="CtsParkingsCar" aria-hidden="true">
+                                        <div className="modal-dialog">
+                                            <div className="control-image-exp">
+                                                <img className="ormaes-images rounded mb-5" src={CtsParkingsCar} alt="..." />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="portfolio-modal modal fade" id="Research" tabindex="-1" aria-labelledby="Research" aria-hidden="true">
+                                        <div className="modal-dialog">
+                                            <div className="control-image-exp">
+                                                <img className="ormaes-images rounded mb-5" src={Research} alt="..." />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div className="portfolio-modal modal fade" id="Location" tabindex="-1" aria-labelledby="Location" aria-hidden="true">
+                                        <div className="modal-dialog">
+                                            <div className="control-image-exp">
+                                                <img className="ormaes-images rounded mb-5" src={Location} alt="..." />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="portfolio-modal modal fade" id="CtsFlexHop" tabindex="-1" aria-labelledby="CtsFlexHop" aria-hidden="true">
+                                        <div className="modal-dialog">
+                                            <div className="control-image-exp">
+                                                <img className="ormaes-images rounded mb-5" src={CtsFlexHop} alt="..." />
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
