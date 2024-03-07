@@ -35,13 +35,19 @@ import TouteLesLignes from '../ContentPortfolio/img/ormaes/cts-toute-les-lignes.
 import CtsParkingsCar from '../ContentPortfolio/img/ormaes/cts-parkings.jpg';
 import CtsParkingBike from '../ContentPortfolio/img/ormaes/cts-bikes.jpg';
 import CtsFlexHop from '../ContentPortfolio/img/ormaes/cts-flex-hop.jpg';
-
 import PerturbationInfo from '../ContentPortfolio/img/ormaes/perturbation-information.jpg';
 import LineInformations from '../ContentPortfolio/img/ormaes/Line-informations.jpg';
-
 import Research from '../ContentPortfolio/img/ormaes/research.jpg';
-
 import Location from '../ContentPortfolio/img/ormaes/location-cts.jpg';
+
+import ActivityProject from '../ContentPortfolio/img/ormaes/activity-project.png';
+import ComposantProject from '../ContentPortfolio/img/ormaes/composant.png';
+import FollowProject from '../ContentPortfolio/img/ormaes/follow-project.png';
+import GetAllProjects from '../ContentPortfolio/img/ormaes/get-all-projects.png';
+import ProjectDetail from '../ContentPortfolio/img/ormaes/project_detail.png';
+
+import b7Languages from '../ContentPortfolio/img/portfolio/b7-languages.png';
+
 
 
 
@@ -55,7 +61,6 @@ import Location from '../ContentPortfolio/img/ormaes/location-cts.jpg';
 function Main () {
     return(
         <>
-
 
             <section className="page-section portfolio" id="experiences">
                 <div className="container">
@@ -183,7 +188,7 @@ function Main () {
                         <div className="divider-custom-line"></div>
                     </div>
                     <div className="row justify-content-center">
-                        <div className="col-md-6 col-lg-4 mb-5">
+                        <div className="col-md-6 col-lg-4">
                             <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#dogheroModal">
                                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                     <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
@@ -380,7 +385,7 @@ function Main () {
                                             <div className="divider-custom-line"></div>
                                         </div>
                                         <img className="img-fluid rounded mb-5" src={ENI} alt="..." />
-                                        <p className="mb-4">Formation Concepteur Développeur d’Applications with the techs : <br/>Java, JavaSE, JEE, JS, PHP, Symfony, CMS, SQL.</p>
+                                        <p className="mb-4">Formation Concepteur Développeur d’Applications. <br/>Java, JavaSE, JEE, JS, PHP, Symfony, CMS, SQL.</p>
                                         <button className="btn btn-secondary" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
@@ -475,14 +480,14 @@ function Main () {
                                         </div>
                                         <img className="img-fluid rounded mb-5" src={CursoEmVideo} alt="..." />
                                         <p className="mb-4">
-                                        Worked in the intern application marketplace of direct market, built new features. <br/> More informations soon..
+                                        Cours de programmation avec diplôme, Full stack en développement web.
                                         </p>
                                         <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
                                         <a className="btn btn-primary link-to-website mx-2" href="https://www.cursoemvideo.com/" target="_blank" rel="noreferrer">
-                                            <i className="fas fa-times fa-fw link-to-website">Direct Market website</i>
+                                            <i className="fas fa-times fa-fw link-to-website">Curso em video website</i>
                                         </a>
                                     </div>
                                 </div>
@@ -506,6 +511,14 @@ function Main () {
                                             <div className="divider-custom-line"></div>
                                         </div>
                                         <img className="img-fluid rounded mb-5" src={B7} alt="..." />
+
+                                        <p className="mb-4">
+                                            Cours de programmation avec diplôme, Full stack en développement web. <br/>
+
+                                        </p>
+                                        <div className='container'>
+                                            <img className='b7Languages' src={b7Languages} alt="" />
+                                        </div>
                                        
                                         <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
@@ -633,7 +646,6 @@ function Main () {
                     </div>
                 </div>
             </div>
-
             <div className="portfolio-modal modal fade" id="modalOrmaes" tabindex="-1" aria-labelledby="modalOrmaes" aria-hidden="true">
                 <div className="modal-dialog dialog-ormaes modal-xl">
                     <div className="modal-content">
@@ -648,6 +660,12 @@ function Main () {
                                             <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
                                             <div className="divider-custom-line"></div>
                                         </div>
+
+                                        <div className='mt-5'>
+                                            <h3>Projet CTS, création de l'application de transport de Strasbourg</h3>
+                                            <h3 className='mt-3'>Réalisée en Java/Flutter</h3>
+                                        </div>
+
                                         <div className="col-12 d-flex align-items-center control-position-images-exp">
                                             <div className="col-md-1 col-lg-2 m-1">
                                                 <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#MainPageCts">
@@ -674,8 +692,6 @@ function Main () {
                                                 </div>
                                             </div>
                                         </div>
-
-                                        
 
                                         <div className="col-12 d-flex align-items-center control-position-images-exp">
                                             <div className="col-md-1 col-lg-2 m-1">
@@ -725,9 +741,61 @@ function Main () {
                                             </div>
                                         </div>
 
+                                        <div className='mt-5'>
+                                            <h3>Projet interne pour suivre les projets de chaque client<br/></h3>
+                                            <h3 className='mt-3'>Créé en Java/Spring boot + Angular</h3>
+                                        </div>
 
 
-                                    </div>
+
+                                        <div className="col-12 d-flex align-items-center control-position-images-exp">
+                                            <div className="col-md-4 col-lg-4 m-1">
+                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#GetAllProjects">
+                                                    <h6>All projects</h6>
+                                                    <img className="img-fluid profile images-modal-ormaes" src={GetAllProjects} alt="..." />
+                                                </div>
+                                            </div>
+                                            <div className="col-md-4 col-lg-4 m-1">
+                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#FollowProject">
+                                                    <h6>Suivi Project</h6>
+                                                    <img className="img-fluid profile images-modal-ormaes" src={FollowProject} alt="..." />
+                                                </div>
+                                            </div>
+                                            <div className="col-md-4 col-lg-4 m-1">
+                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#ProjectDetail">
+                                                    <h6>Project detail</h6>
+                                                    <img className="img-fluid profile images-modal-ormaes" src={ProjectDetail} alt="..." />
+                                                </div>
+                                            </div>
+                                          
+                                        </div>
+
+                                        <div className="col-12 d-flex align-items-center control-position-images-exp">
+                                            <div className="col-md-6 col-lg-6 m-1">
+                                                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#ComposantProject">
+                                                        <h6>Project Composant</h6>
+                                                        <img className="img-fluid profile images-modal-ormaes" src={ComposantProject} alt="..." />
+                                                    </div>
+                                                </div>
+                                                <div className="col-md-6 col-lg-6 m-1">
+                                                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#ActivityProject">
+                                                        <h6>Project Activity</h6>
+                                                        <img className="img-fluid profile images-modal-ormaes" src={ActivityProject} alt="..." />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div className='mt-5'>
+                                            <h6>Visitez le lien pour plus de détails sur les projets</h6>
+                                            <a href="https://excalidraw.com/#json=U5PJlbPCtgwbs4rApdsA1,KvHrMqxW9azDDY74bowe6w" target='_blank'><h6>Plus d'information</h6></a>
+                                        </div>
+
+
+
+
+
                                     <div className="portfolio-modal modal fade" id="MainPageCts" tabindex="-1" aria-labelledby="MainPageCts" aria-hidden="true">
                                         <div className="modal-dialog">
                                             <div className="control-image-exp">
@@ -809,6 +877,61 @@ function Main () {
                                             </div>
                                         </div>
                                     </div>
+
+
+                                    <div className="portfolio-modal modal fade" id="GetAllProjects" tabindex="-1" aria-labelledby="GetAllProjects" aria-hidden="true">
+                                        <div className="modal-dialog">
+                                            <div className="control-image-exp">
+                                                <img className="ormaes-app-images rounded mb-5" src={GetAllProjects} alt="..." />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="portfolio-modal modal fade" id="FollowProject" tabindex="-1" aria-labelledby="FollowProject" aria-hidden="true">
+                                        <div className="modal-dialog">
+                                            <div className="control-image-exp">
+                                                <img className="ormaes-app-images rounded mb-5" src={FollowProject} alt="..." />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="portfolio-modal modal fade" id="ProjectDetail" tabindex="-1" aria-labelledby="ProjectDetail" aria-hidden="true">
+                                        <div className="modal-dialog">
+                                            <div className="control-image-exp">
+                                                <img className="ormaes-app-images rounded mb-5" src={ProjectDetail} alt="..." />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div className="portfolio-modal modal fade" id="ComposantProject" tabindex="-1" aria-labelledby="ComposantProject" aria-hidden="true">
+                                        <div className="modal-dialog">
+                                            <div className="control-image-exp">
+                                                <img className="ormaes-app-images rounded mb-5" src={ComposantProject} alt="..." />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="portfolio-modal modal fade" id="ActivityProject" tabindex="-1" aria-labelledby="ActivityProject" aria-hidden="true">
+                                        <div className="modal-dialog">
+                                            <div className="control-image-exp">
+                                                <img className="ormaes-app-images rounded mb-5" src={ActivityProject} alt="..." />
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                                 </div>
                             </div>
                         </div>

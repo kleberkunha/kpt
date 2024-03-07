@@ -39,6 +39,7 @@
 .control-position-images-exp{
     display: flex;
     justify-content: space-around;
+    margin-top: 40px;
 }
 .control-image-exp{
     width: 100%;
@@ -66,4 +67,20 @@
 
 .ormaes-images{
     width: 20vw;
+}
+
+
+.ormaes-app-images{
+    position: absolute;
+    width: 80vw;
+    right: -26vw;
+}
+
+.images-modal-ormaes{
+    width: 20rem;
+}
+
+.b7Languages{
+    width: inherit;
+    margin-bottom: 10px;
 }
