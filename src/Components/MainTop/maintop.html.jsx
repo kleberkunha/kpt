@@ -19,12 +19,12 @@ function MainTop () {
                     </div>
                     <h4>Alternance</h4>
 
-                        <div>
+                        <div className='container'>
                             <h5 className="">Concepteur développeur d’applications </h5>
                             <p>Préparation&nbsp;:&nbsp;Niveau Bac+4.</p>
                             <p>Type de contrat&nbsp;:&nbsp; Apprentissage (18mois).</p>
                             <p>Rythme&nbsp;:&nbsp;1 mois en entreprise / 2 semaines en formation</p>
-                            <p>Technologies&nbsp;:&nbsp;Java,&nbsp;JavaSE,&nbsp;JEE,&nbsp;JS,&nbsp;PHP,&nbsp;Symfony,&nbsp;CMS,&nbsp;SQL.</p>
+                            <p>Technologies&nbsp;:&nbsp;Java,&nbsp;JavaSE,&nbsp;JEE,&nbsp;JS,&nbsp;PHP,&nbsp;<br/>Symfony,&nbsp;CMS,&nbsp;SQL.</p>
                         </div>
 
                     <a href="https://www.mediafire.com/file/1yflfg1g1gzk8dd/CV_Kleber_da_Cunha_Alternance.pdf/file" target="_blank" rel="noreferrer">
