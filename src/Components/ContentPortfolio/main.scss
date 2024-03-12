@@ -61,9 +61,6 @@
     right: -17vw;
 }
 
-.images-modal{
-    width: 8vw;
-}
 
 .ormaes-images{
     width: 20vw;
@@ -83,4 +80,64 @@
 .b7Languages{
     width: inherit;
     margin-bottom: 10px;
+}
+
+
+@media only screen and (min-device-width: 400px) and (max-device-width: 1200px) {
+    .dm-images{
+        width: 96vw;
+        right: -5vw;
+        top: 252px;
+    }
+
+    .image-etiquete {
+        width: 96vw;
+        right: -5vw;
+        top: 252px;
+    }
+
+    .ormaes-images {
+        width: 70vw;
+    }
+}
+
+@media only screen and (min-device-width: 576px) and (max-device-width: 1200px){
+    .item-dm{
+        width: 41vw;
+    }
+}
+
+@media only screen and (min-device-width: 576px) and (max-device-width: 990px){
+    .item-orma{
+        width: 100%;
+    }
+    .ormaes-images {
+        width: 37vw;
+    }
+}
+
+@media only screen and (min-device-width: 576px) and (max-device-width: 1200px) {
+    .dm-images{
+        width: 85vw;
+        right: -15vw;
+        top: 179px;
+    }
+
+    .ormaes-images {
+        width: 28vw;;
+    }
+}
+
+
+@media only screen and (max-width: 400px){
+    .ormaes-images {
+        width: 70vw;
+    }
+
+    .dm-images {
+        position: absolute;
+        width: 89vw;
+        right: -1vw;
+        top: 32vh;
+    }
 }

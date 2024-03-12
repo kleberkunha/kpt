@@ -49,15 +49,6 @@ import ProjectDetail from '../ContentPortfolio/img/ormaes/project_detail.png';
 import b7Languages from '../ContentPortfolio/img/portfolio/b7-languages.png';
 
 
-
-
-
-
-
-
-
-
-
 function Main () {
     return(
         <>
@@ -548,51 +539,55 @@ function Main () {
                                             <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
                                             <div className="divider-custom-line"></div>
                                         </div>
-                                        <div className="col-12 d-flex align-items-center control-position-images-exp">
-                                            <div className="col-md-2 col-lg-4 m-2">
-                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#creationProduct">
-                                                    <h6>Créer des produits à partir d'une liste CSV</h6>
-                                                    <img className="img-fluid profile" src={CreationProduct} alt="..." />
+                                        <div className='container'>
+                                            <div className="row d-flex align-items-center control-position-images-exp">
+                                                <div className="col-md-2 item-dm col-lg-4 m-2">
+                                                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#creationProduct">
+                                                        <h6>Créer des produits à partir d'une liste CSV</h6>
+                                                        <img className="img-fluid profile" src={CreationProduct} alt="..." />
+                                                    </div>
                                                 </div>
-                                            </div>
 
-                                            <div className="col-md-2 col-lg-4 m-2">
-                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#listProductCreated">
-                                                    <h6>Liste des produits créés par date</h6>
-                                                    <img className="img-fluid profile" src={ListProductCreated} alt="..." />
+                                                <div className="col-md-2 item-dm col-lg-4 m-2">
+                                                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#listProductCreated">
+                                                        <h6>Liste des produits créés par date</h6>
+                                                        <img className="img-fluid profile" src={ListProductCreated} alt="..." />
+                                                    </div>
                                                 </div>
-                                            </div>
 
-                                            <div className="col-md-2 col-lg-4 m-2">
-                                                <h6>Barre de recherche et pagination</h6>
-                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#SearchBarDM">
-                                                    <img className="img-fluid profile" src={SearchBar} alt="..." />
+                                                <div className="col-md-2 item-dm col-lg-4 m-2">
+                                                    <h6>Barre de recherche et pagination</h6>
+                                                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#SearchBarDM">
+                                                        <img className="img-fluid profile" src={SearchBar} alt="..." />
+                                                    </div>
                                                 </div>
+                                            
                                             </div>
-                                          
                                         </div>
-                                        <div className="col-12 d-flex align-items-center control-position-images-exp">
-                                            <div className="col-md-2 col-lg-4 m-2">
-                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#deleteProduct">
-                                                    <h6>Retrait du produit par code de référence</h6>
-                                                    <img className="img-fluid profile" src={DeleteProduct} alt="..." />
+                                        <div className='container'>
+                                            <div className="row d-flex align-items-center control-position-images-exp">
+                                                <div className="col-md-2 item-dm col-lg-4 m-2">
+                                                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#deleteProduct">
+                                                        <h6>Retrait du produit par code de référence</h6>
+                                                        <img className="img-fluid profile" src={DeleteProduct} alt="..." />
+                                                    </div>
                                                 </div>
-                                            </div>
-                                           
-                                            <div className="col-md-2 col-lg-4 m-2">
-                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#QrcodePage">
-                                                    <h6>Création de la page redirigée par QR code</h6>
-                                                    <img className="img-fluid profile" src={QrcodePage} alt="..." />
+                                            
+                                                <div className="col-md-2 item-dm col-lg-4 m-2">
+                                                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#QrcodePage">
+                                                        <h6>Création de la page redirigée par QR code</h6>
+                                                        <img className="img-fluid profile" src={QrcodePage} alt="..." />
+                                                    </div>
                                                 </div>
-                                            </div>
-                                          
-                                            <div className="col-md-2 col-lg-4 m-2">
-                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#etiqueteTransparance">
-                                                    <h6>QR Code pour chaque produit</h6>
-                                                    <img className="img-fluid profile" src={EticketTransparent} alt="..." />
-                                                    <div>
-                                                        <h5>Exemple de lien d'un QR code <br/></h5>
-                                                        <a href="https://transparence.direct-market.fr/?product_id=39&producer_id=6&supermarket_id=642#traceability" target="_blank">Cliquez ici pour ouvrir le lien</a>
+                                            
+                                                <div className="col-md-2 item-dm col-lg-4 m-2">
+                                                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#etiqueteTransparance">
+                                                        <h6>QR Code pour chaque produit</h6>
+                                                        <img className="img-fluid profile" src={EticketTransparent} alt="..." />
+                                                        <div>
+                                                            <h5>Exemple de lien d'un QR code <br/></h5>
+                                                            <a href="https://transparence.direct-market.fr/?product_id=39&producer_id=6&supermarket_id=642#traceability" target="_blank">Cliquez ici pour ouvrir le lien</a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -665,78 +660,83 @@ function Main () {
                                             <h3>Projet CTS, création de l'application de transport de Strasbourg</h3>
                                             <h3 className='mt-3'>Réalisée en Java/Flutter</h3>
                                         </div>
-
-                                        <div className="col-12 d-flex align-items-center control-position-images-exp">
-                                            <div className="col-md-1 col-lg-2 m-1">
-                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#MainPageCts">
-                                                    <h6>Perturbation button</h6>
-                                                    <img className="img-fluid profile images-modal" src={PerturbationsButton} alt="..." />
+                                        <div className='container'>
+                                            <div className="row d-flex align-items-center control-position-images-exp">
+                                                <div className="col-md-2 item-orma col-lg-2 m-1">
+                                                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#MainPageCts">
+                                                        <h6>Perturbation button</h6>
+                                                        <img className="img-fluid profile images-modal" src={PerturbationsButton} alt="..." />
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div className="col-md-1 col-lg-2 m-1">
-                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#PerturbationsPage">
-                                                    <h6>Perturbations page</h6>
-                                                    <img className="img-fluid profile images-modal" src={PerturbationsPage} alt="..." />
+                                                <div className="col-md-2 item-orma col-lg-2 m-1">
+                                                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#PerturbationsPage">
+                                                        <h6>Perturbations page</h6>
+                                                        <img className="img-fluid profile images-modal" src={PerturbationsPage} alt="..." />
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div className="col-md-1 col-lg-2 m-1">
-                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#TouteLesLignes">
-                                                    <h6>Toutes les lignes</h6>
-                                                    <img className="img-fluid profile images-modal" src={TouteLesLignes} alt="..." />
+                                                <div className="col-md-2 item-orma col-lg-2 m-1">
+                                                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#TouteLesLignes">
+                                                        <h6>Toutes les lignes</h6>
+                                                        <img className="img-fluid profile images-modal" src={TouteLesLignes} alt="..." />
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div className="col-md-1 col-lg-2 m-1">
-                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#LineDirections">
-                                                    <h6>Ligne information</h6>
-                                                    <img className="img-fluid profile images-modal" src={LineDirections} alt="..." />
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div className="col-12 d-flex align-items-center control-position-images-exp">
-                                            <div className="col-md-1 col-lg-2 m-1">
-                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#PerturbationInfo">
-                                                    <h6>Perturbation info</h6>
-                                                    <img className="img-fluid profile images-modal" src={PerturbationInfo} alt="..." />
-                                                </div>
-                                            </div>
-                                            <div className="col-md-1 col-lg-2 m-1">
-                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#LineInformations">
-                                                    <h6>Ligne options</h6>
-                                                    <img className="img-fluid profile images-modal" src={LineInformations} alt="..." />
-                                                </div>
-                                            </div>
-                                            <div className="col-md-1 col-lg-2 m-1">
-                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#CtsParkingsCar">
-                                                    <h6>Parking Information</h6>
-                                                    <img className="img-fluid profile images-modal" src={CtsParkingsCar} alt="..." />
-                                                </div>
-                                            </div>
-                                            <div className="col-md-1 col-lg-2 m-1">
-                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#CtsParkingBike">
-                                                    <h6>Parking information</h6>
-                                                    <img className="img-fluid profile images-modal" src={CtsParkingBike} alt="..." />
+                                                <div className="col-md-2 item-orma col-lg-2 m-1">
+                                                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#LineDirections">
+                                                        <h6>Ligne information</h6>
+                                                        <img className="img-fluid profile images-modal" src={LineDirections} alt="..." />
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div className="col-12 d-flex align-items-center control-position-images-exp">
-                                            <div className="col-md-1 col-lg-2 m-1">
-                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#Research">
-                                                    <h6>Research Page</h6>
-                                                    <img className="img-fluid profile images-modal" src={Research} alt="..." />
+                                        <div className='container'>
+                                            <div className="row d-flex align-items-center control-position-images-exp">
+                                                <div className="col-md-2 item-orma col-lg-2 m-1">
+                                                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#PerturbationInfo">
+                                                        <h6>Perturbation info</h6>
+                                                        <img className="img-fluid profile images-modal" src={PerturbationInfo} alt="..." />
+                                                    </div>
+                                                </div>
+                                                <div className="col-md-2 item-orma col-lg-2 m-1">
+                                                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#LineInformations">
+                                                        <h6>Ligne options</h6>
+                                                        <img className="img-fluid profile images-modal" src={LineInformations} alt="..." />
+                                                    </div>
+                                                </div>
+                                                <div className="col-md-2 item-orma col-lg-2 m-1">
+                                                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#CtsParkingsCar">
+                                                        <h6>Parking Information</h6>
+                                                        <img className="img-fluid profile images-modal" src={CtsParkingsCar} alt="..." />
+                                                    </div>
+                                                </div>
+                                                <div className="col-md-2 item-orma col-lg-2 m-1">
+                                                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#CtsParkingBike">
+                                                        <h6>Parking information</h6>
+                                                        <img className="img-fluid profile images-modal" src={CtsParkingBike} alt="..." />
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div className="col-md-1 col-lg-2 m-1">
-                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#Location">
-                                                    <h6>Bike parking location</h6>
-                                                    <img className="img-fluid profile images-modal" src={Location} alt="..." />
+                                        </div>
+
+                                        <div className='container'>
+                                            <div className="row d-flex align-items-center control-position-images-exp">
+                                                <div className="col-md-2 item-orma col-lg-2 m-1">
+                                                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#Research">
+                                                        <h6>Research Page</h6>
+                                                        <img className="img-fluid profile images-modal" src={Research} alt="..." />
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div className="col-md-1 col-lg-2 m-1">
-                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#CtsFlexHop">
-                                                    <h6>FlexHop</h6>
-                                                    <img className="img-fluid profile images-modal" src={CtsFlexHop} alt="..." />
+                                                <div className="col-md-2 item-orma col-lg-2 m-1">
+                                                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#Location">
+                                                        <h6>Bike parking location</h6>
+                                                        <img className="img-fluid profile images-modal" src={Location} alt="..." />
+                                                    </div>
+                                                </div>
+                                                <div className="col-md-2 item-orma col-lg-2 m-1">
+                                                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#CtsFlexHop">
+                                                        <h6>FlexHop</h6>
+                                                        <img className="img-fluid profile images-modal" src={CtsFlexHop} alt="..." />
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -747,40 +747,43 @@ function Main () {
                                         </div>
 
 
-
-                                        <div className="col-12 d-flex align-items-center control-position-images-exp">
-                                            <div className="col-md-4 col-lg-4 m-1">
-                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#GetAllProjects">
-                                                    <h6>All projects</h6>
-                                                    <img className="img-fluid profile images-modal-ormaes" src={GetAllProjects} alt="..." />
-                                                </div>
-                                            </div>
-                                            <div className="col-md-4 col-lg-4 m-1">
-                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#FollowProject">
-                                                    <h6>Suivi Project</h6>
-                                                    <img className="img-fluid profile images-modal-ormaes" src={FollowProject} alt="..." />
-                                                </div>
-                                            </div>
-                                            <div className="col-md-4 col-lg-4 m-1">
-                                                <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#ProjectDetail">
-                                                    <h6>Project detail</h6>
-                                                    <img className="img-fluid profile images-modal-ormaes" src={ProjectDetail} alt="..." />
-                                                </div>
-                                            </div>
-                                          
-                                        </div>
-
-                                        <div className="col-12 d-flex align-items-center control-position-images-exp">
-                                            <div className="col-md-6 col-lg-6 m-1">
-                                                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#ComposantProject">
-                                                        <h6>Project Composant</h6>
-                                                        <img className="img-fluid profile images-modal-ormaes" src={ComposantProject} alt="..." />
+                                        <div className='container'>
+                                            <div className="row d-flex align-items-center control-position-images-exp">
+                                                <div className="col-md-4 mt-3 col-lg-4 m-1">
+                                                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#GetAllProjects">
+                                                        <h6>All projects</h6>
+                                                        <img className="img-fluid profile images-modal-ormaes" src={GetAllProjects} alt="..." />
                                                     </div>
                                                 </div>
-                                                <div className="col-md-6 col-lg-6 m-1">
-                                                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#ActivityProject">
-                                                        <h6>Project Activity</h6>
-                                                        <img className="img-fluid profile images-modal-ormaes" src={ActivityProject} alt="..." />
+                                                <div className="col-md-4 mt-3 col-lg-4 m-1">
+                                                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#FollowProject">
+                                                        <h6>Suivi Project</h6>
+                                                        <img className="img-fluid profile images-modal-ormaes" src={FollowProject} alt="..." />
+                                                    </div>
+                                                </div>
+                                                <div className="col-md-4 mt-3 col-lg-4 m-1">
+                                                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#ProjectDetail">
+                                                        <h6>Project detail</h6>
+                                                        <img className="img-fluid profile images-modal-ormaes" src={ProjectDetail} alt="..." />
+                                                    </div>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+
+                                        <div className='container'>
+                                            <div className="row d-flex align-items-center control-position-images-exp">
+                                                <div className="col-md-6 mt-3 col-lg-6 m-1">
+                                                        <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#ComposantProject">
+                                                            <h6>Project Composant</h6>
+                                                            <img className="img-fluid profile images-modal-ormaes" src={ComposantProject} alt="..." />
+                                                        </div>
+                                                    </div>
+                                                    <div className="col-md-6 mt-3 col-lg-6 m-1">
+                                                        <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#ActivityProject">
+                                                            <h6>Project Activity</h6>
+                                                            <img className="img-fluid profile images-modal-ormaes" src={ActivityProject} alt="..." />
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
