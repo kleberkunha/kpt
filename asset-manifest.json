@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kpt/static/css/main.446c417c.css",
-    "main.js": "/kpt/static/js/main.6e888f2f.js",
+    "main.js": "/kpt/static/js/main.3d030898.js",
     "static/media/agency.png": "/kpt/static/media/agency.c25469a83ea27bdb99ef.png",
     "static/media/starbucks.png": "/kpt/static/media/starbucks.6951706e0f285f0a9a23.png",
     "static/media/doc.png": "/kpt/static/media/doc.474374c301e0c5f2ea14.png",
@@ -46,10 +46,10 @@
     "static/media/b7-languages.png": "/kpt/static/media/b7-languages.276afda537f41688dc8b.png",
     "index.html": "/kpt/index.html",
     "main.446c417c.css.map": "/kpt/static/css/main.446c417c.css.map",
-    "main.6e888f2f.js.map": "/kpt/static/js/main.6e888f2f.js.map"
+    "main.3d030898.js.map": "/kpt/static/js/main.3d030898.js.map"
   },
   "entrypoints": [
     "static/css/main.446c417c.css",
-    "static/js/main.6e888f2f.js"
+    "static/js/main.3d030898.js"
   ]
 }
