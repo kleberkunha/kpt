@@ -441,13 +441,15 @@ function Main () {
                                         <p className="mb-4">3w Academy is a school that focus in the practice learning, training course based
                                          on projects everyweek followed by a teacher. Over 800 hours of exercises, projects and evaluations per week.
                                          PHP,Node Js,React Js,SQL,symfony.</p>
-                                        <button className="btn btn-secondary" href="#!" data-bs-dismiss="modal">
-                                            <i className="fas fa-times fa-fw"></i>
-                                            Close Window
-                                        </button>
-                                        <a className="btn btn-primary link-to-website mx-2" href="https://3wa.fr/" target="_blank" rel="noreferrer">
-                                            <i className="fas fa-times fa-fw link-to-website">3w Academy website</i>
-                                        </a>
+                                         <div className='d-flex'>
+                                            <button className="btn btn-secondary" href="#!" data-bs-dismiss="modal">
+                                                <i className="fas fa-times fa-fw"></i>
+                                                Close Window
+                                            </button>
+                                            <a className="btn btn-primary link-to-website mx-2" href="https://3wa.fr/" target="_blank" rel="noreferrer">
+                                                <i className="fas fa-times fa-fw link-to-website">3w Academy website</i>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
