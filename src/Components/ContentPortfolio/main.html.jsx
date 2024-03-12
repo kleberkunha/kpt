@@ -308,7 +308,7 @@ function Main () {
 
                     </div>
                     <div className="text-center mt-4">
-                        <a className="btn btn-xl btn-outline-light" href="https://www.mediafire.com/file/1yflfg1g1gzk8dd/CV_Kleber_da_Cunha_Alternance.pdf/file" target="_blank" rel="noreferrer">
+                        <a className="btn btn-xl btn-outline-light" href="https://www.mediafire.com/file/9t99muycylp7qf0/cv_Kleber_da_cunha_2024_alternance.pdf/file" target="_blank" rel="noreferrer">
                             <i className="fas fa-download me-2"></i>
                             Download my CV!
                         </a>
@@ -473,7 +473,7 @@ function Main () {
                                         </div>
                                         <img className="img-fluid rounded mb-5" src={CursoEmVideo} alt="..." />
                                         <p className="mb-4">
-                                        Cours de programmation avec diplôme,<br/> Full stack en développement web.
+                                        Programming course with diploma,<br/> Full stack in web development.
                                         </p>
                                         <button className="btn btn-secondary" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
@@ -506,8 +506,7 @@ function Main () {
                                         <img className="img-fluid rounded mb-5" src={B7} alt="..." />
 
                                         <p className="mb-4">
-                                            Cours de programmation avec diplôme, Full stack en développement web. <br/>
-
+                                            Programming course with diploma, Full stack in web development. <br/>
                                         </p>
                                         <div className='container'>
                                             <img className='b7Languages' src={b7Languages} alt="" />

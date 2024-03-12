@@ -28,7 +28,7 @@ function HeaderBar () {
                             <Link smooth to="#about" className="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">About</Link>
                         </li>
                         <li class="nav-item">
-                            <a to="#" className="nav-link py-3 px-0 px-lg-3 rounded" href="https://www.mediafire.com/file/1yflfg1g1gzk8dd/CV_Kleber_da_Cunha_Alternance.pdf/file" target="_blank" rel="noreferrer">CV</a>
+                            <a to="#" className="nav-link py-3 px-0 px-lg-3 rounded" href="https://www.mediafire.com/file/9t99muycylp7qf0/cv_Kleber_da_cunha_2024_alternance.pdf/file" target="_blank" rel="noreferrer">CV</a>
                         </li>
                         <li class="nav-item">
                             <Link smooth to="#contact" className="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</Link>
