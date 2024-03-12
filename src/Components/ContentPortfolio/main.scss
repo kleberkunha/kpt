@@ -91,8 +91,8 @@
     }
 
     .image-etiquete {
-        width: 96vw;
-        right: -5vw;
+        width: 67vw;
+        right: 12vw;
         top: 252px;
     }
 
@@ -139,5 +139,12 @@
         width: 89vw;
         right: -1vw;
         top: 32vh;
+    }
+
+    .image-etiquete {
+        position: absolute;
+        width: 92vw;
+        right: -1vw;
+        top: 31vh;
     }
 }
