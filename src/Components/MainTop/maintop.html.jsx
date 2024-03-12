@@ -37,5 +37,3 @@ function MainTop () {
 }
 
 export default MainTop;
-
-

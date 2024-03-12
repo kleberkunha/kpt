@@ -368,7 +368,7 @@ function Main () {
                         <div className="modal-body text-center pb-5">
                             <div className="container">
                                 <div className="row justify-content-center">
-                                    <div className="col-lg-8">
+                                    <div className="col-lg-8 p-0">
                                         <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">ENI <br/><br/> Ecole informatique</h2>
                                         <div className="divider-custom">
                                             <div className="divider-custom-line"></div>
@@ -398,7 +398,7 @@ function Main () {
                         <div className="modal-body text-center pb-5">
                             <div className="container">
                                 <div className="row justify-content-center">
-                                    <div className="col-lg-8">
+                                    <div className="col-lg-8 p-0">
                                         <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">The Hacking Project</h2>
                                         <div className="divider-custom">
                                             <div className="divider-custom-line"></div>
@@ -423,6 +423,7 @@ function Main () {
                     </div>
                 </div>
             </div>
+
             <div className="portfolio-modal modal fade" id="portfolioModalAcademy" tabindex="-1" aria-labelledby="portfolioModalAcademy" aria-hidden="true">
                 <div className="modal-dialog modal-xl">
                     <div className="modal-content">
@@ -430,7 +431,7 @@ function Main () {
                         <div className="modal-body text-center pb-5">
                             <div className="container">
                                 <div className="row justify-content-center">
-                                    <div className="col-lg-8">
+                                    <div className="col-lg-8 p-0">
                                         <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">3w Academy</h2>
                                         <div className="divider-custom">
                                             <div className="divider-custom-line"></div>
@@ -455,6 +456,7 @@ function Main () {
                     </div>
                 </div>
             </div>
+            
             <div className="portfolio-modal modal fade" id="modalCursoEmVideo" tabindex="-1" aria-labelledby="modalCursoEmVideo" aria-hidden="true">
                 <div className="modal-dialog modal-xl">
                     <div className="modal-content">
@@ -462,7 +464,7 @@ function Main () {
                         <div className="modal-body text-center pb-5">
                             <div className="container">
                                 <div className="row justify-content-center">
-                                    <div className="col-lg-8">
+                                    <div className="col-lg-9 p-0">
                                         <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Curso em video</h2>
                                         <div className="divider-custom">
                                             <div className="divider-custom-line"></div>
@@ -471,9 +473,9 @@ function Main () {
                                         </div>
                                         <img className="img-fluid rounded mb-5" src={CursoEmVideo} alt="..." />
                                         <p className="mb-4">
-                                        Cours de programmation avec diplôme, Full stack en développement web.
+                                        Cours de programmation avec diplôme,<br/> Full stack en développement web.
                                         </p>
-                                        <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <button className="btn btn-secondary" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
@@ -494,7 +496,7 @@ function Main () {
                         <div className="modal-body text-center pb-5">
                             <div className="container">
                                 <div className="row justify-content-center">
-                                    <div className="col-lg-8">
+                                    <div className="col-lg-8 p-0">
                                         <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">B7 Web</h2>
                                         <div className="divider-custom">
                                             <div className="divider-custom-line"></div>
@@ -511,7 +513,7 @@ function Main () {
                                             <img className='b7Languages' src={b7Languages} alt="" />
                                         </div>
                                        
-                                        <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <button className="btn btn-secondary" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
@@ -920,21 +922,6 @@ function Main () {
                                             </div>
                                         </div>
                                     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                                 </div>
                             </div>
                         </div>
@@ -948,7 +935,7 @@ function Main () {
                         <div className="modal-body text-center pb-5">
                             <div className="container">
                                 <div className="row justify-content-center">
-                                    <div className="col-lg-8">
+                                    <div className="col-lg-8 p-0">
                                         <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">GoRails</h2>
                                         <div className="divider-custom">
                                             <div className="divider-custom-line"></div>
@@ -959,7 +946,7 @@ function Main () {
                                         <p className="mb-4">
                                         GoRails is an online course on FullStack programming for Ruby on Rails, the best place to learn the language.
                                         </p>
-                                        <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <button className="btn btn-secondary" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
@@ -980,7 +967,7 @@ function Main () {
                         <div className="modal-body text-center pb-5">
                             <div className="container">
                                 <div className="row justify-content-center">
-                                    <div className="col-lg-8">
+                                    <div className="col-lg-8 p-0">
                                         <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">42 School</h2>
                                         <div className="divider-custom">
                                             <div className="divider-custom-line"></div>
@@ -992,7 +979,7 @@ function Main () {
                                         School 42 is based on peer-to-peer learning. I was preselected
                                         for one intensive month of projects and exams: Shell, C programming language, and algorithms.
                                         </p>
-                                        <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <button className="btn btn-secondary" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
@@ -1013,7 +1000,7 @@ function Main () {
                         <div className="modal-body text-center pb-5">
                             <div className="container">
                                 <div className="row justify-content-center">
-                                    <div className="col-lg-8">
+                                    <div className="col-lg-8 p-0">
                                         <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">DogHero</h2>
                                         <div className="divider-custom">
                                             <div className="divider-custom-line"></div>
@@ -1022,7 +1009,7 @@ function Main () {
                                         </div>
                                         <img className="img-fluid rounded mb-5" src={doghero} alt="..." />
                                         <p className="mb-4">This site was made for dog owners who are looking for company when they go out for an activity, also stores can sell products and create events.</p>
-                                        <button className="btn btn-primary mt-2" href="#!" data-bs-dismiss="modal">
+                                        <button className="btn btn-secondary mt-2" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
@@ -1043,7 +1030,7 @@ function Main () {
                         <div className="modal-body text-center pb-5">
                             <div className="container">
                                 <div className="row justify-content-center">
-                                    <div className="col-lg-8">
+                                    <div className="col-lg-8 p-0">
                                         <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Sports With Me</h2>
                                         <div className="divider-custom">
                                             <div className="divider-custom-line"></div>
@@ -1054,7 +1041,7 @@ function Main () {
                                         <p className="mb-4">This sport meeting application was a three-person team project,
                                          completed in two weeks. The goal: Find people to practice diversified sports activities,
                                          and create or take part in offered sporting events.</p>
-                                        <button className="btn btn-primary mt-2" href="#!" data-bs-dismiss="modal">
+                                        <button className="btn btn-secondary mt-2" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
@@ -1075,7 +1062,7 @@ function Main () {
                         <div className="modal-body text-center pb-5">
                             <div className="container">
                                 <div className="row justify-content-center">
-                                    <div className="col-lg-8">
+                                    <div className="col-lg-8 p-0">
                                         <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">FollowNut's</h2>
                                         <div className="divider-custom">
                                             <div className="divider-custom-line"></div>
@@ -1084,7 +1071,7 @@ function Main () {
                                         </div>
                                         <img className="img-fluid rounded mb-5" src={FollowNut} alt="..." />
                                         <p className="mb-4">This is the final project of the formation (The hacking Project),<br/> made with a group of 5 persons in total.</p>
-                                        <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <button className="btn btn-secondary" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
@@ -1105,7 +1092,7 @@ function Main () {
                         <div className="modal-body text-center pb-5">
                             <div className="container">
                                 <div className="row justify-content-center">
-                                    <div className="col-lg-8">
+                                    <div className="col-lg-8 p-0">
                                         <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Property Search</h2>
                                         <div className="divider-custom">
                                             <div className="divider-custom-line"></div>
@@ -1116,7 +1103,7 @@ function Main () {
                                         <p className="mb-4">An application that search for properties, made with Rails + React,<br/>
                                          5 persons in total worked in this project.
                                         </p>
-                                        <button className="btn btn-primary mt-2" href="#!">
+                                        <button className="btn btn-secondary mt-2" href="#!">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
@@ -1137,7 +1124,7 @@ function Main () {
                         <div className="modal-body text-center pb-5">
                             <div className="container">
                                 <div className="row justify-content-center">
-                                    <div className="col-lg-8">
+                                    <div className="col-lg-8 p-0">
                                         <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Gossip Project</h2>
                                         <div className="divider-custom">
                                             <div className="divider-custom-line"></div>
@@ -1149,7 +1136,7 @@ function Main () {
                                          carried out with The Hacking Project training course.
                                          You can register, log in, create a post, edit and delete.
                                         </p>
-                                        <button className="btn btn-primary mt-2" href="#!" data-bs-dismiss="modal">
+                                        <button className="btn btn-secondary mt-2" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
@@ -1170,7 +1157,7 @@ function Main () {
                         <div className="modal-body text-center pb-5">
                             <div className="container">
                                 <div className="row justify-content-center">
-                                    <div className="col-lg-8">
+                                    <div className="col-lg-8 p-0">
                                         <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Pizza Project</h2>
                                         <div className="divider-custom">
                                             <div className="divider-custom-line"></div>
@@ -1181,7 +1168,7 @@ function Main () {
                                         <p className="mb-4">Made in javascript, this online pizza ordering application
                                          allows you to take order of pizza and add it to a basket.
                                         </p>
-                                        <button className="btn btn-primary mt-2" href="#!" data-bs-dismiss="modal">
+                                        <button className="btn btn-secondary mt-2" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
@@ -1202,7 +1189,7 @@ function Main () {
                         <div className="modal-body text-center pb-5">
                             <div className="container">
                                 <div className="row justify-content-center">
-                                    <div className="col-lg-8">
+                                    <div className="col-lg-8 p-0">
                                         <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Movies Search</h2>
                                         <div className="divider-custom">
                                             <div className="divider-custom-line"></div>
@@ -1213,7 +1200,7 @@ function Main () {
                                         <p className="mb-4">This online movie search, in javascript, used an API from IMDB.<br/>
                                          It allows you to search for details about any movie or series.
                                         </p>
-                                        <button className="btn btn-primary mt-2" href="#!" data-bs-dismiss="modal">
+                                        <button className="btn btn-secondary mt-2" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
@@ -1234,7 +1221,7 @@ function Main () {
                         <div className="modal-body text-center pb-5">
                             <div className="container">
                                 <div className="row justify-content-center">
-                                    <div className="col-lg-8">
+                                    <div className="col-lg-8 p-0">
                                         <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Note Block Project</h2>
                                         <div className="divider-custom">
                                             <div className="divider-custom-line"></div>
@@ -1245,7 +1232,7 @@ function Main () {
                                         <p className="mb-4">With the Note Block project in ReactJS using StorageData,<br/>
                                             you can create a note, edit,delete and it has an automatic save feature.
                                         </p>
-                                        <button className="btn btn-primary mt-2" href="#!" data-bs-dismiss="modal">
+                                        <button className="btn btn-secondary mt-2" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
@@ -1266,7 +1253,7 @@ function Main () {
                         <div className="modal-body text-center pb-5">
                             <div className="container">
                                 <div className="row justify-content-center">
-                                    <div className="col-lg-8">
+                                    <div className="col-lg-8 p-0">
                                         <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Doc Project</h2>
                                         <div className="divider-custom">
                                             <div className="divider-custom-line"></div>
@@ -1275,7 +1262,7 @@ function Main () {
                                         </div>
                                         <img className="img-fluid rounded mb-5" src={Doc} alt="..." />
                                         <p className="mb-4">A template responsive from a doctor website.</p>
-                                        <button className="btn btn-primary mt-2" href="#!" data-bs-dismiss="modal">
+                                        <button className="btn btn-secondary mt-2" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
@@ -1296,7 +1283,7 @@ function Main () {
                         <div className="modal-body text-center pb-5">
                             <div className="container">
                                 <div className="row justify-content-center">
-                                    <div className="col-lg-8">
+                                    <div className="col-lg-8 p-0">
                                         <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Starbucks Project</h2>
                                         <div className="divider-custom">
                                             <div className="divider-custom-line"></div>
@@ -1305,7 +1292,7 @@ function Main () {
                                         </div>
                                         <img className="img-fluid rounded mb-5" src={Starbucks} alt="..." />
                                         <p className="mb-4">Template from the StartBucks website in HTML + CSS with responsive.</p>
-                                        <button className="btn btn-primary mt-2" href="#!" data-bs-dismiss="modal">
+                                        <button className="btn btn-secondary mt-2" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
@@ -1326,7 +1313,7 @@ function Main () {
                         <div className="modal-body text-center pb-5">
                             <div className="container">
                                 <div className="row justify-content-center">
-                                    <div className="col-lg-8">
+                                    <div className="col-lg-8 p-0">
                                         <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Phone Contact</h2>
                                         <div className="divider-custom">
                                             <div className="divider-custom-line"></div>
@@ -1335,7 +1322,7 @@ function Main () {
                                         </div>
                                         <h2>06 08 50 58 51</h2>
                                         <p className="mb-4">I'm available 24h, if you call, and I do not answer, please leave a message and I will be in contact a few minutes later.</p>
-                                        <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <button className="btn btn-secondary" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
@@ -1353,7 +1340,7 @@ function Main () {
                         <div className="modal-body text-center pb-5">
                             <div className="container">
                                 <div className="row justify-content-center">
-                                    <div className="col-lg-8">
+                                    <div className="col-lg-8 p-0">
                                         <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Email Contact</h2>
                                         <div className="divider-custom">
                                             <div className="divider-custom-line"></div>
@@ -1362,7 +1349,7 @@ function Main () {
                                         </div>
                                         <h2>hello.kleberkunha@gmail.com</h2>
                                         <p className="mb-4">I will be answering as fast as I can, in case that you did not have any answer please contact me direct by phone. 06-08-50-58-51.</p>
-                                        <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <button className="btn btn-secondary" href="#!" data-bs-dismiss="modal">
                                             <i className="fas fa-times fa-fw"></i>
                                             Close Window
                                         </button>
